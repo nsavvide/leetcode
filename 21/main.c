@@ -1,10 +1,9 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     struct ListNode *next;
- * };
- */
+struct ListNode {
+  int val;
+  struct ListNode *next;
+};
+
+#include <stdlib.h>
 
 struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2) {
   struct ListNode head; // put on stack
@@ -31,6 +30,4 @@ struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2) {
   return head.next;
 }
 
-int main() {
-    return 0;
-}
+int main() { return 0; }

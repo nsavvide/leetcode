@@ -30,3 +30,7 @@ struct ListNode *mergeTwoLists(struct ListNode *list1, struct ListNode *list2) {
 
   return head.next;
 }
+
+int main() {
+    return 0;
+}

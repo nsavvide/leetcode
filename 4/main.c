@@ -1,5 +1,4 @@
-#include <limits.h> // Required for INT_MIN and INT_MAX
-#include <stdio.h>
+#include <limits.h>
 
 double max(double a, double b) { return (a > b) ? a : b; }
 

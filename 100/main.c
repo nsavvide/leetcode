@@ -6,7 +6,15 @@
  *     struct TreeNode *right;
  * };
  */
+
+struct TreeNode {
+  int val;
+  struct TreeNode *left;
+  struct TreeNode *right;
+};
+
 #include <stdbool.h>
+#include <stdlib.h>
 
 bool isSameTree(struct TreeNode *p, struct TreeNode *q) {
   if (p == NULL && q == NULL) {

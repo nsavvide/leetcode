@@ -15,7 +15,7 @@ int convert(char c) {
   case 'M':
     return 1000;
   default:
-    return 0; // Use 0 to avoid messing up math
+    return 0; // Use 0 to prevent further operation
   }
 }
 

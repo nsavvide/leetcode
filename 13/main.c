@@ -15,7 +15,7 @@ int convert(char c) {
   case 'M':
     return 1000;
   default:
-    return 0; // Use 0 to prevent further operation
+    return 0; // Return 0 for unsupported symbols so they don't affect the total
   }
 }
 
